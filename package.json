@@ -1,0 +1,36 @@
+{
+  "name": "gatsby-plugin-svg-spritemap",
+  "version": "1.0.0",
+  "description": "Gatsby plugin to generate a SVG spritemap on build time using svg-spritemap-webpack-plugin",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "watch": "babel -w src --out-dir ."
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "webpack",
+    "svg",
+    "sprite",
+    "spritemap"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luiz-mai/gatsby-plugin-svg-spritemap.git"
+  },
+  "author": "Luiz Mai <lffmai@gmail.com>",
+  "license": "0BSD",
+  "dependencies": {
+    "@babel/runtime": "^7.11.2",
+    "svg-spritemap-webpack-plugin": "^3.5.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "babel-preset-gatsby-package": "^0.1.4"
+  },
+  "peerDependencies": {
+    "gatsby": ">2.0.0"
+  }
+}
